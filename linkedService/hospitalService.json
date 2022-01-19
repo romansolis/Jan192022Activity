@@ -1,0 +1,12 @@
+{
+	"name": "hospitalService",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=rjstorage2022c;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEY0MzFBNTY3LThCNzMtNDcyRS05RjA4LUM2QzA4NzJFN0U2Ql83ZDk5MzIyNC1lMGNkLTRhNWEtYWE3MS1lZWYyNzczY2Q0MDIiDQp9"
+		}
+	}
+}
